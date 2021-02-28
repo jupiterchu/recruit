@@ -1,0 +1,616 @@
+2021-02-15 17:17:14,567 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:19:37,812 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:19:41,048 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:21:01,947 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:21:10,988 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:22:03,825 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:22:06,740 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:22:39,097 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:22:42,186 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:22:48,700 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:22:51,470 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:23:14,341 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:23:17,002 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:24:27,147 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:24:29,920 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:24:56,020 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\settings.py changed, reloading.
+2021-02-15 17:24:58,961 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:38:36,209 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 17:38:38,525 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:40:23,833 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 17:40:26,123 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:41:23,475 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 17:41:26,402 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 17:47:19,838 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\manage.py changed, reloading.
+2021-02-15 19:08:11,868 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:09:02,907 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:09:05,840 django.request 230 WARNING  Not Found: /
+2021-02-15 19:09:19,335 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1785, in changelist_view
+    FormSet = self.get_changelist_formset(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 790, in get_changelist_formset
+    fields=self.list_editable, **defaults
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\forms\models.py", line 879, in modelformset_factory
+    error_messages=error_messages, field_classes=field_classes)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\forms\models.py", line 555, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\forms\models.py", line 268, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (first_interviews_user) specified for Candidate
+2021-02-15 19:10:33,782 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:10:36,387 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:18:21,004 django.request 230 WARNING  Not Found: /favicon.ico
+2021-02-15 19:23:50,347 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:23:53,055 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:25:29,833 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:25:32,613 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:25:50,250 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:25:52,993 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:26:02,907 interview.admin 91 INFO     interviews is in user's group for interview1
+2021-02-15 19:26:02,919 interview.admin 91 INFO     interviews is in user's group for interview1
+2021-02-15 19:26:02,923 interview.admin 91 INFO     interviews is in user's group for interview1
+2021-02-15 19:26:02,947 interview.admin 91 INFO     interviews is in user's group for interview1
+2021-02-15 19:27:49,352 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:27:52,220 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:28:48,174 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:28:50,563 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:30:16,359 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:30:18,806 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:32:38,537 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:32:41,443 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:34:25,020 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:34:27,794 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-15 19:36:09,009 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-15 19:36:11,583 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:16:50,029 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:17:46,164 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:17:54,500 django.request 230 WARNING  Not Found: /favicon.ico
+2021-02-16 13:39:40,647 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 13:39:42,932 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:45:27,839 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 13:45:29,361 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:45:41,116 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/4/change/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1569, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 680, in get_form
+    exclude.extend(readonly_fields)
+TypeError: 'NoneType' object is not iterable
+2021-02-16 13:47:32,646 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1569, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 680, in get_form
+    exclude.extend(readonly_fields)
+TypeError: 'NoneType' object is not iterable
+2021-02-16 13:47:50,940 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/4/change/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 1569, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\contrib\admin\options.py", line 680, in get_form
+    exclude.extend(readonly_fields)
+TypeError: 'NoneType' object is not iterable
+2021-02-16 13:51:34,319 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 13:51:35,810 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 13:51:57,392 interview.admin 93 INFO     interviews is in user's group for interview1
+2021-02-16 13:51:57,397 interview.admin 93 INFO     interviews is in user's group for interview1
+2021-02-16 13:52:08,882 interview.admin 93 INFO     interviews is in user's group for interview2
+2021-02-16 13:52:08,890 interview.admin 93 INFO     interviews is in user's group for interview2
+2021-02-16 13:56:12,993 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 13:56:15,503 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 15:30:11,240 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 15:30:13,382 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 15:30:52,292 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 15:30:54,667 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 15:34:24,340 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 15:34:25,913 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 15:54:57,504 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 15:54:59,030 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:35:48,112 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:35:50,631 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:37:52,601 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:37:54,093 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:40:32,038 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:40:33,694 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:41:19,208 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:41:20,754 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:41:46,399 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:41:47,889 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:43:18,433 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:44:51,687 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 16:44:53,042 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:45:08,095 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:45:49,037 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 16:45:51,436 django.request 230 WARNING  Not Found: /
+2021-02-16 16:46:41,016 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:03:10,643 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 17:03:12,907 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:04:11,604 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 17:04:14,477 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:18:32,912 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 17:18:35,377 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:28:43,437 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:49:32,845 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 17:50:49,397 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 17:50:52,147 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:11:32,719 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:11:58,585 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 18:12:03,543 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:12:12,700 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\urls.py changed, reloading.
+2021-02-16 18:12:17,250 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:12:54,038 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\urls.py changed, reloading.
+2021-02-16 18:12:58,893 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:13:10,411 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\recruitment\urls.py changed, reloading.
+2021-02-16 18:13:13,887 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:16:03,757 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 18:16:07,561 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:17:21,671 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 18:17:24,139 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:18:00,848 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 18:18:03,356 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:18:21,977 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 18:18:24,959 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:19:59,701 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 18:20:04,062 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:20:36,623 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 18:20:40,380 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:21:04,323 django.request 230 WARNING  Not Found: /
+2021-02-16 18:21:25,088 django.request 230 WARNING  Not Found: /acount/login
+2021-02-16 18:21:30,228 django.request 230 WARNING  Not Found: /account/login
+2021-02-16 18:27:35,380 django.request 230 WARNING  Not Found: /
+2021-02-16 18:28:10,549 django.request 230 WARNING  Not Found: /
+2021-02-16 18:28:27,754 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 18:28:30,613 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:28:34,344 django.request 230 WARNING  Not Found: /
+2021-02-16 18:28:38,136 django.request 230 WARNING  Not Found: /
+2021-02-16 18:29:01,251 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 18:29:04,088 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:29:11,036 django.request 230 WARNING  Not Found: /
+2021-02-16 18:29:31,394 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 18:29:34,228 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:32:36,848 django.request 230 WARNING  Not Found: /resume/add/
+2021-02-16 18:32:42,216 django.request 230 WARNING  Not Found: /resume/add/
+2021-02-16 18:46:24,302 django.request 230 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'translate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py", line 17, in joblist
+    return HttpResponse(template.render(context))
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'translate', expected 'endblock'. Did you forget to register or load this tag?
+2021-02-16 18:49:37,860 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\models.py changed, reloading.
+2021-02-16 18:49:41,412 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:50:02,987 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\models.py changed, reloading.
+2021-02-16 18:50:07,638 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:50:59,615 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\models.py changed, reloading.
+2021-02-16 18:51:02,629 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:52:03,802 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\models.py changed, reloading.
+2021-02-16 18:52:07,162 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:52:44,366 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 18:52:47,831 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:53:29,550 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 18:53:33,046 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 18:54:16,434 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 18:54:19,684 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:24:06,133 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:25:16,100 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 19:25:19,810 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:34:09,315 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:34:14,739 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:35:28,383 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:35:31,867 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:36:16,780 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:36:20,261 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:36:53,300 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:36:57,802 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:37:09,682 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:37:14,407 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:37:25,550 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:37:29,811 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:41:59,829 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 19:42:04,508 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:44:13,743 django.request 230 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'translate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py", line 19, in joblist
+    return HttpResponse(template.render(context))
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'translate', expected 'endblock'. Did you forget to register or load this tag?
+2021-02-16 19:44:54,401 django.request 230 ERROR    Internal Server Error: /job/1/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'translate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py", line 29, in job
+    return render(request, 'job.html', locals())
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'translate', expected 'endblock'. Did you forget to register or load this tag?
+2021-02-16 19:55:27,745 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:55:32,560 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:55:59,874 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:56:03,987 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:57:20,526 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:57:25,862 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 19:57:53,086 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 19:57:57,258 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 20:02:04,455 django.request 230 WARNING  Not Found: /favicon.ico
+2021-02-16 20:59:53,291 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 20:59:56,103 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:05:16,750 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:05:19,684 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:10:54,823 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:10:58,809 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:15:42,964 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 21:15:47,380 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:15:53,868 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 21:15:56,450 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:24:54,978 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:25:04,142 django.request 230 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'bootsrap4'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\defaulttags.py", line 1038, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'bootsrap4' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+bootstrap4
+cache
+grp_tags
+i18n
+l10n
+log
+static
+tz
+2021-02-16 21:25:44,975 django.request 230 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'bootsrap_css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Jove\PycharmProjects\DFR\django\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'bootsrap_css'. Did you forget to register or load this tag?
+2021-02-16 21:41:41,243 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:41:45,619 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:46:03,829 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:46:07,317 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:47:37,190 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:47:40,755 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:48:09,624 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 21:48:12,831 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:56:23,357 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 21:56:26,654 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 21:57:10,441 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 21:57:13,949 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:02:00,140 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\admin.py changed, reloading.
+2021-02-16 22:02:03,664 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:05:34,140 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 22:05:38,221 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:06:12,275 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\views.py changed, reloading.
+2021-02-16 22:06:15,250 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:07:10,637 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 22:07:13,720 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:07:50,945 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\jobs\url.py changed, reloading.
+2021-02-16 22:07:54,628 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:43:35,355 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:43:39,256 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:43:52,693 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:43:56,089 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:45:21,496 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:45:25,305 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:46:28,212 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:46:31,582 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:47:22,514 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:47:25,928 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 22:49:26,678 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\admin.py changed, reloading.
+2021-02-16 22:49:29,515 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:18:19,068 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 23:18:22,805 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:19:01,251 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 23:19:05,563 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:20:47,239 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:25:09,829 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\settings\base.py changed, reloading.
+2021-02-16 23:25:13,177 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:37:35,545 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:37:39,413 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:43:27,252 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:43:30,517 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:43:48,907 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:43:53,015 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:44:12,529 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:44:16,595 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:44:39,643 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:44:43,421 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:46:49,498 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:46:54,130 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:47:26,312 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:47:30,183 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:47:33,900 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:47:38,171 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:47:53,560 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:47:57,244 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:48:10,751 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:48:14,908 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:48:18,745 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:48:22,663 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:50:30,998 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:50:34,973 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:51:52,117 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:51:55,993 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:53:08,817 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:53:12,526 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-16 23:54:15,963 django.utils.autoreload 240 INFO     C:\Users\Jove\PycharmProjects\recruitment\interview\performance.py changed, reloading.
+2021-02-16 23:54:19,820 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
